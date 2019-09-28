@@ -1,0 +1,19 @@
+{
+  "name": "amazonbookwishlistgetter",
+  "version": "1.0.0",
+  "description": "Get book title, author, and price from amazon print view of a wishlist and exports to CSV",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "amazonbookwishlistgetter"
+  },
+  "author": "Jordan Tryon",
+  "license": "MIT",
+  "dependencies": {
+    "convert-array-to-csv": "^1.0.9",
+    "puppeteer": "^1.20.0"
+  }
+}
